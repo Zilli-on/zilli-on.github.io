@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JARVIS – privates Assistenzsystem</title>
+<meta name="description" content="JARVIS ist das private Assistenzsystem von Fabien Damböck. Es liest ausschließlich die eigenen Google-Daten des Inhabers und zeigt sie lokal auf seinem PC an.">
+<style>
+  :root { --grund:#0b1220; --flaeche:#111a2c; --text:#e6edf6; --leise:#9fb0c6; --akzent:#38d6f5; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--grund); color:var(--text);
+         font:17px/1.65 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:72px 22px 56px; }
+  .marke { color:var(--akzent); font-size:13px; letter-spacing:.24em; font-weight:600; }
+  h1 { font-size:34px; line-height:1.2; margin:10px 0 18px; font-weight:650; }
+  p { margin:0 0 16px; }
+  .leise { color:var(--leise); }
+  ul { padding-left:20px; margin:0 0 20px; }
+  li { margin:6px 0; }
+  .karte { background:var(--flaeche); border:1px solid #1f2b44; border-radius:14px; padding:18px 20px; margin:26px 0; }
+  a { color:var(--akzent); }
+  footer { margin-top:44px; font-size:14px; color:var(--leise); border-top:1px solid #1f2b44; padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="marke">JARVIS</div>
+  <h1>Ein privates Assistenzsystem, das auf einem einzigen PC läuft.</h1>
+  <p>JARVIS gehört Fabien Damböck in Wien und wird nur von ihm genutzt. Jeden Morgen stellt es auf seinem eigenen Rechner eine Tagesübersicht zusammen:</p>
+  <ul>
+    <li>welche Termine heute anstehen,</li>
+    <li>welche Nachrichten wirklich eine Antwort brauchen,</li>
+    <li>welche Aufgaben offen sind.</li>
+  </ul>
+  <div class="karte">
+    <p><strong>Was JARVIS von Google liest:</strong> das eigene Gmail-Postfach und den eigenen Google Kalender des Inhabers, ausschließlich mit Leserechten. Senden, löschen oder ändern kann JARVIS damit nichts.</p>
+    <p class="leise" style="margin:0">Kein öffentlicher Dienst, keine Anmeldung, keine weiteren Nutzer, keine Weitergabe von Daten.</p>
+  </div>
+  <p>Wie mit den Daten umgegangen wird, steht in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+  <footer>Fabien Damböck, Wien · <a href="https://github.com/Zilli-on">github.com/Zilli-on</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+</main>
+</body>
+</html>
